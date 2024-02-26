@@ -1,7 +1,7 @@
 /*
  ============================================================================
  Name        : Chapter_15_Challenge_2.c
- Author      : 
+ Author      : Goran Vujnovic
  Version     :
  Copyright   : Your copyright notice
  Description : Challenge 2
@@ -27,7 +27,7 @@ void sort(int* arrey, int n)
 		{
 			if (arrey[j] > arrey[j+1])
 			{
-				temp = arrey[j];
+			    temp = arrey[j];
 			    arrey[j] = arrey[j+1];
 			    arrey[j+1] = temp;
 			}
